@@ -62,7 +62,7 @@ Uso livre.
 
 ## Instalação
 
-### Clone o projeto e acesso o diretório
+### Clone o projeto
 
 ```bash
 git clone https://github.com/wellyssongodinho/customer-registration.git
@@ -124,7 +124,7 @@ Se todas as coisas estiverem certas, o novo terminal estará pronto para aceitar
 
 Parabéns 🎉. Você agora tem seu próprio banco de dados PostgreSQL!
 
-#### Instalando a aplicação
+#### Instalando pacotes backend
 
 ```bash
 //
@@ -142,7 +142,7 @@ $ npm run start:dev
 
 Acesso o repositório `customer-registration-backend`
 
-#### Instalando a aplicação
+#### Instalando pacotes frontend
 
 ```bash
 //
