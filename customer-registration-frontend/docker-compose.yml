@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  frontend:
+    build:
+      context: ./customer-registration-frontend
+      dockerfile: Dockerfile
+    container_name: customer-frontend-container
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    networks:
+      - frontend_network
+
+networks:
+  frontend_network:
+    driver: bridge
